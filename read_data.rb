@@ -12,5 +12,6 @@ i = 0
 
 while (i < data.length) do
   puts "#{data[i][:id]} : #{data[i][:first_name]}"
+  i += 1
 end
 
